@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="900" viewBox="0 0 1280 900" role="img" aria-labelledby="title desc">
+  <title id="title">Solar panels at sunrise</title>
+  <desc id="desc">A futuristic solar farm with warm sunlight and a dark premium energy background.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.48" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#10251e"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff7ad"/>
+      <stop offset="0.55" stop-color="#ffc107"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="0.52" stop-color="#111827"/>
+      <stop offset="1" stop-color="#020617"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="24" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1280" height="900" fill="url(#sky)"/>
+  <circle cx="894" cy="255" r="130" fill="url(#sun)" filter="url(#glow)" opacity="0.95"/>
+  <path d="M0 526 C220 430 350 474 520 420 C770 342 980 410 1280 302 L1280 900 L0 900 Z" fill="#08111d" opacity="0.82"/>
+  <g opacity="0.75">
+    <path d="M80 595 L1180 430" stroke="#ffc107" stroke-width="2" opacity="0.16"/>
+    <path d="M20 680 L1210 515" stroke="#22c55e" stroke-width="2" opacity="0.12"/>
+    <path d="M144 490 L1110 355" stroke="#ffffff" stroke-width="1" opacity="0.12"/>
+  </g>
+  <g transform="translate(145 490) skewY(-9)">
+    <g>
+      <polygon points="0,80 250,25 332,185 68,246" fill="url(#panel)" stroke="#7dd3fc" stroke-opacity="0.35"/>
+      <path d="M42 72 L107 220 M91 61 L158 208 M140 50 L209 196 M189 39 L260 185" stroke="#94a3b8" stroke-opacity="0.4"/>
+      <path d="M32 113 L277 61 M48 151 L295 100 M64 190 L312 139" stroke="#94a3b8" stroke-opacity="0.35"/>
+    </g>
+    <g transform="translate(360 12)">
+      <polygon points="0,80 250,25 332,185 68,246" fill="url(#panel)" stroke="#7dd3fc" stroke-opacity="0.35"/>
+      <path d="M42 72 L107 220 M91 61 L158 208 M140 50 L209 196 M189 39 L260 185" stroke="#94a3b8" stroke-opacity="0.4"/>
+      <path d="M32 113 L277 61 M48 151 L295 100 M64 190 L312 139" stroke="#94a3b8" stroke-opacity="0.35"/>
+    </g>
+    <g transform="translate(720 24)">
+      <polygon points="0,80 250,25 332,185 68,246" fill="url(#panel)" stroke="#7dd3fc" stroke-opacity="0.35"/>
+      <path d="M42 72 L107 220 M91 61 L158 208 M140 50 L209 196 M189 39 L260 185" stroke="#94a3b8" stroke-opacity="0.4"/>
+      <path d="M32 113 L277 61 M48 151 L295 100 M64 190 L312 139" stroke="#94a3b8" stroke-opacity="0.35"/>
+    </g>
+  </g>
+  <rect x="0" y="0" width="1280" height="900" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>

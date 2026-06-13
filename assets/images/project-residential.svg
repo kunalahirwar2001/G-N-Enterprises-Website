@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-label="Residential solar project placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#10233f"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#1d4ed8"/><stop offset="1" stop-color="#020617"/></linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="715" cy="135" r="78" fill="#ffc107" opacity="0.9"/>
+  <path d="M120 405 L450 185 L780 405 Z" fill="#18243a"/>
+  <path d="M190 405 L450 238 L710 405 Z" fill="#293449"/>
+  <rect x="230" y="382" width="440" height="155" fill="#111827"/>
+  <g transform="translate(315 292) skewX(-28)">
+    <rect width="265" height="100" fill="url(#panel)" stroke="#93c5fd" stroke-opacity="0.5"/>
+    <path d="M53 0 V100 M106 0 V100 M159 0 V100 M212 0 V100 M0 50 H265" stroke="#cbd5e1" stroke-opacity="0.35"/>
+  </g>
+  <path d="M0 540 C220 490 470 580 900 505 L900 650 L0 650 Z" fill="#07111f"/>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="650" viewBox="0 0 900 650" role="img" aria-label="Industrial solar project placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#10233f"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#1e40af"/><stop offset="1" stop-color="#020617"/></linearGradient>
+  </defs>
+  <rect width="900" height="650" fill="url(#bg)"/>
+  <circle cx="690" cy="125" r="70" fill="#ffc107" opacity="0.85"/>
+  <path d="M110 390 L790 275 L790 530 L110 560 Z" fill="#111827"/>
+  <rect x="615" y="170" width="70" height="300" fill="#17233a"/>
+  <rect x="705" y="135" width="55" height="340" fill="#17233a"/>
+  <g transform="translate(170 265) skewY(-8)">
+    <rect width="560" height="165" fill="url(#panel)" stroke="#93c5fd" stroke-opacity="0.5"/>
+    <path d="M70 0 V165 M140 0 V165 M210 0 V165 M280 0 V165 M350 0 V165 M420 0 V165 M490 0 V165 M0 55 H560 M0 110 H560" stroke="#cbd5e1" stroke-opacity="0.35"/>
+  </g>
+  <path d="M0 555 C240 520 520 575 900 525 L900 650 L0 650 Z" fill="#07111f"/>
+</svg>
